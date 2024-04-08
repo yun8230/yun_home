@@ -222,8 +222,8 @@ a {
 	align-items: center;
 	position: relative;
 	top: 10px;
-	left: 100px;
-	width: calc(100% - 200px);
+	left: 50px;
+	width: calc(100% - 100px);
 	gap: 10px;
 	margin-bottom: 30px;
 }
