@@ -13,14 +13,21 @@
 			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="icon" href="./img/site-icon.png" />
 		<script src="main.js"></script>
 	</head>
+
 	<body>
+		<div id="header-img-box">
+			<img id="header-img" src="./img/background.png" draggable="false" />
+		</div>
+		<div id="back-color"></div>
+
+		<div id="header">
+			<div id="header-contents"></div>
+		</div>
+
 		<div id="content">
-			<div id="header-img-box">
-				<img id="header-img" src="./img/background.png" draggable="false" />
-			</div>
-			<div id="back-color"></div>
 			<div id="title">yun - ゆん</div>
 			<div id="icon-box">
 				<img id="icon-img" src="./img/icon.png" draggable="false" />
@@ -54,13 +61,13 @@
 					</a>
 				</div>
 
-				<div id="profile-text">
+				<div id="profile-text" style="user-select: text">
 					主にAIイラストを生成/投稿したり、ソフトウェア/ウェブ開発をして活動しています！<br />
 					yun/ゆんとお呼びください！
 				</div>
 
 				<div id="content-cards">
-					<div class="content-card">
+					<div class="content-card" style="user-select: text">
 						<h1>自己紹介/注意</h1>
 						<br />
 						・2004/03/28生まれ。AIイラストやプログラミングをやっています。<br /><br />
@@ -86,7 +93,7 @@
 						<a href="https://github.com/yun8230" target="_blank">GitHub</a>
 					</div>
 
-					<div class="content-card">
+					<div class="content-card" style="padding-bottom: 10px">
 						<iframe
 							src="https://discordapp.com/widget?id=1226769252929769472&theme=dark"
 							width="350"
@@ -98,6 +105,15 @@
 						></iframe>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<div id="footer-box">
+				<small>
+					Use, distribution, and reprinting of images are prohibited.<br />
+					2024 - Yun All rights reserved.
+				</small>
 			</div>
 		</div>
 		<div id="wrapper-left"></div>
