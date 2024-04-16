@@ -1,4 +1,4 @@
-fetch("src/html/elements/home/profile-content.html")
+fetch("html/elements/home/profile-content.html")
 	.then((response) => response.text())
 	.then((data) =>
 		document
